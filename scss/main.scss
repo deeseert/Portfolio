@@ -1,5 +1,5 @@
 $primary-color: #444;
-$secondary-color: #eece1a;
+$secondary-color: #60da0d;
 $show-home-image: true;
 $home-image: url(../img/background.jpg);
 $background-opacity: 0.9;
@@ -36,7 +36,7 @@ h3 {
   &.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem;
-    background: rgba(lighten($primary-color, 2), 0.5);
+    // background: rgba(lighten($primary-color, 2), 0.5);
   }
 }
 
@@ -103,8 +103,24 @@ main {
     font-size: 1.5rem;
   }
 
+  .job {
+    a {
+      &:hover {
+        color: $secondary-color;
+        @include easeOut;
+      }
+    }
+  }
+
   .job-1 {
     grid-area: job1;
+
+    // a {
+    //   &:hover {
+    //     color: $secondary-color;
+    //     @include easeOut;
+    //   }
+    // }
   }
 
   .job-2 {
@@ -119,6 +135,10 @@ main {
     background: lighten($primary-color, 5);
     padding: 0.5rem;
     border-bottom: $secondary-color 5px solid;
+  }
+
+  .list-about {
+    padding-left: 1.5rem;
   }
 }
 

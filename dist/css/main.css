@@ -128,6 +128,12 @@ h3 {
   h3.sm-heading {
     margin-bottom: 2rem;
     padding: 0.2rem 1rem; }
+    h1.sm-heading a:hover,
+    h2.sm-heading a:hover,
+    h3.sm-heading a:hover {
+      color: #60da0d;
+      transition: all 0.5s ease-out;
+      text-decoration: underline; }
 
 a {
   color: #fff;

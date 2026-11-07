@@ -17,7 +17,7 @@ pnpm lint
 pnpm build
 ```
 
-The static site ends up in `out`. GitHub Pages serves it from `/Portfolio`, so the deploy workflow sets `NEXT_PUBLIC_BASE_PATH=/Portfolio` when it builds. Pushing to `master` deploys it.
+The static site ends up in `out`. GitHub Pages serves it from `/Portfolio`, so the deploy workflow sets `NEXT_PUBLIC_BASE_PATH=/Portfolio` when it builds. Pushing to `main` deploys it.
 
 ## Where things live
 
